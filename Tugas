@@ -1,0 +1,42 @@
+Perbedaan Arsitektur Linux dan Windows
+
+1. Inti Sistem (Kernel):
+Linux: Menggunakan kernel yang bersifat open source dan modular. Ini berarti kode sumbernya dapat diakses dan dimodifikasi oleh siapa saja. Kernel Linux sangat fleksibel dan dapat disesuaikan dengan berbagai jenis perangkat keras. Contoh kernel Linux yang populer adalah Linux Kernel, yang merupakan dasar dari distribusi Linux seperti Ubuntu, Debian, dan Fedora.
+Windows: Menggunakan kernel yang bersifat closed source dan monolitik. Kode sumbernya tidak dipublikasikan, sehingga pengembangannya hanya dilakukan oleh Microsoft. Kernel Windows lebih terintegrasi dan kurang fleksibel dibandingkan kernel Linux.
+
+2. Sistem File:
+Linux: Mendukung berbagai macam sistem file, seperti ext4, XFS, Btrfs, NTFS, dan FAT32. Ini memberikan fleksibilitas dalam mengelola data dan memungkinkan pengguna untuk memilih sistem file yang paling sesuai dengan kebutuhan mereka.
+Windows: Sebagian besar menggunakan sistem file NTFS, yang merupakan sistem file default untuk Windows NT, 2000, XP, Vista, 7, 8, dan 10. NTFS menawarkan fitur-fitur seperti keamanan, kompresi, dan jurnal.
+
+3. Manajemen Memori:
+Linux: Menggunakan berbagai algoritma manajemen memori yang efisien, seperti Virtual Memory Management (VMM) dan Page Replacement Algorithms. Linux juga mendukung swap, yang memungkinkan sistem untuk menggunakan ruang disk sebagai memori virtual tambahan.
+Windows: Juga menggunakan VMM dan algoritma penggantian halaman yang serupa dengan Linux. Namun, implementasi dan tuning-nya mungkin berbeda.
+
+4. Manajemen Proses:
+Linux: Menggunakan konsep proses yang ringan dan efisien. Linux mendukung multitasking preemptive, yang memungkinkan beberapa proses berjalan secara bersamaan.
+Windows: Juga mendukung multitasking preemptive dan memiliki mekanisme manajemen proses yang canggih.
+
+5. Jaringan:
+
+Linux: Mendukung berbagai protokol jaringan dan memiliki tumpukan jaringan yang sangat fleksibel. Linux sering digunakan sebagai server karena kemampuannya dalam menangani lalu lintas jaringan yang tinggi.
+Windows: Juga mendukung berbagai protokol jaringan, tetapi tumpukan jaringan Windows mungkin tidak sefleksibel Linux.
+
+6. Keamanan:
+Linux: Dikenal memiliki keamanan yang tinggi karena sifatnya yang open source. Banyak peneliti keamanan yang berkontribusi dalam menemukan dan memperbaiki kerentanan pada Linux.
+Windows: Memiliki sistem keamanan yang kompleks, tetapi seringkali menjadi target serangan karena basis pengguna yang besar.
+
+7. Lisensi:
+Linux: Sebagian besar distribusi Linux menggunakan lisensi open source seperti GNU General Public License (GPL). Ini berarti pengguna bebas untuk menggunakan, memodifikasi, dan mendistribusikan Linux.
+Windows: Merupakan sistem operasi komersial yang dilisensikan oleh Microsoft. Pengguna harus membeli lisensi untuk menggunakan Windows.
+
+8. Driver:
+Linux: Menggunakan driver yang bersifat open source dan dapat dengan mudah dimodifikasi. Linux memiliki komunitas pengembang driver yang sangat aktif.
+Windows: Menggunakan driver yang dikembangkan oleh vendor perangkat keras. Driver Windows biasanya lebih mudah ditemukan, tetapi kurang fleksibel dibandingkan driver Linux.
+
+9. Arsitektur Sistem:
+Linux: Dapat berjalan pada berbagai jenis perangkat keras, mulai dari komputer desktop hingga superkomputer. Linux sangat populer di server, embedded systems, dan sistem operasi mobile.
+Windows: Terutama digunakan pada komputer desktop dan laptop. Windows juga tersedia untuk server, tetapi kurang populer dibandingkan Linux.
+
+10. Komunitas:
+Linux: Memiliki komunitas pengguna dan pengembang yang sangat besar dan aktif. Komunitas ini memberikan dukungan yang sangat baik bagi pengguna Linux.
+Windows: Juga memiliki komunitas pengguna yang besar, tetapi komunitas pengembang Windows tidak sebesar komunitas Linux.
